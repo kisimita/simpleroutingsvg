@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    window.addEventListener("load", function() {
+    var svgObject = document.getElementById('svg-object');
+    console.log(svgObject);
+    console.log(1<2);
+  });
+</script>
+</head>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time 1.</button>
+<p id="demo"></p>
+<object id="svg-object" data="https://upload.wikimedia.org/wikipedia/commons/8/80/H1N1_United_Kingdom_Map_-_Region_3.svg" type="image/svg+xml"></object>
+<div id="map" class="united-kingdom">
+    <!-- Raphaël JS Map Here -->
+</div>
+</body>
+</html> 
