@@ -4,7 +4,7 @@
 
 # Usage
 1. Open the project with Android Studio
-2. Launch the app on device or emulator
+2. Launch the app on device
 3. Choose two rooms. Note that not all rooms can be selected. Sorry about my lazy :)
 4. Press "Test" button to show the shortes path 
 
